@@ -42,7 +42,7 @@ class MathDojoTwo(object):
         return self
 
 md2 = MathDojoTwo(0)
-print md2.add([1], 3, 4).add([3, 5, 7, 8], [2, 4, 3, 1.25]).subtract(2, [2, 3], [1, 1, 2, 3]).result
+print md2.add([1], 3, 4).add([3, 5, 7, 8], [2, 4, 3, 1.25]).subtract(2, [2, 3], [1.1, 2.3]).result
 
 # Part III - support tuples of values in addition to lists
 
