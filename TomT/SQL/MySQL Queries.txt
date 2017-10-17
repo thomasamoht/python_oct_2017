@@ -19,13 +19,13 @@ SELECT concat_ws(" ",first_name,last_name, id)
 FROM users  //selects first name, last name, and id and puts them in a single string with a " " between them
 
 SELECT *
- FROM users
+FROM users
 LEFT JOIN tweets
 ON users.id = tweets.user_id
   //Joins the user and tweets table (including those people who have 0 tweets)
 
 SELECT *
- FROM users
+FROM users
  JOIN tweets
 ON users.id = tweets.user_id
   //Joins but excludes those who don't have a match in the 2nd table
